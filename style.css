@@ -1,0 +1,406 @@
+body{
+  background-color: black;
+}
+div li{
+  list-style-type: none;
+  font-weight: bold;
+  margin-top: 3%;
+}
+div ul p{
+    font-family: 'Lobster', cursive;
+color: white;
+  padding:5px;
+  font-weight: bold;
+  font-family: arial;
+  display: inline-block;
+  margin-left:10px;
+  font-size: 35px;
+}
+div ul .logo{
+  padding :2px;
+  margin-left:50px;
+  width:40px;
+}
+div ul{ 
+  font-family: 'Bree Serif', serif;
+  width:100%;
+  margin-top: 0px;
+  white-space: nowrap;
+  top: 0%;
+  background:#BD9C2A;
+}
+
+div ul li{
+  font-size: 25px;
+  display: inline-block;
+  padding: 15px;
+  color: white;
+}
+div ul li a{
+  color:white;
+  text-decoration: none;
+  margin-right: 0px;
+  margin-left: 100px;
+  }
+.main{
+
+  width: 100%;
+  white-space: nowrap;
+}
+.main img{
+ display: inline-block;
+  width: 50%;
+  padding: 10px;
+}
+.main p{
+  max-width: 45%;
+  font-weight: bold;
+  font-family: serif;
+  color: white;
+  display: inline-block;
+  font-size: 50px;
+  width: 45%;
+  padding: 10px;
+}
+.main span{
+  text-decoration:underline;
+}
+.quote{
+  font-family: 'Grandstander', cursive;
+  line-height: 70px;
+  color:#BD9C2A;
+  font-size: 70px;
+  font-weight: bold;
+}
+.quote #q{
+  text-align: right;
+  font-size: 40px;
+}
+.graph{
+  font-family: 'Bree Serif', serif;
+  word-spacing: 170px;
+  display: block;
+  color: white;
+  font-size: 50px;  
+  padding: 30px;
+
+}
+#gone{
+  font-size:40px;
+  
+}
+#skill{
+  letter-spacing: 5px;
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  font-size: 80px;
+  color:#9D1924;
+}
+.grapho {
+  font-family: 'Bree Serif', serif;
+  word-spacing: 245px;
+  display: block;
+  color: white;
+  font-size: 50px;
+  padding: 30px;
+}
+.grapht {
+  font-family: 'Bree Serif', serif;
+  word-spacing: 240px;
+  display: block;
+  color: white;
+  font-size: 50px;
+    padding: 30px;
+  
+}
+.graphf {
+  font-family: 'Bree Serif', serif;
+  word-spacing: 110px;
+  display: block;
+  color: white;
+  font-size: 50px;
+    padding: 30px;
+}
+.graphs {
+  font-family: 'Bree Serif', serif;
+  word-spacing: 150px;
+  display: block;
+  color: white;
+  font-size: 50px;
+    padding: 30px;
+}
+#break{
+  text-decoration: underline;
+  color: #BD9C2A;
+  font-size: 50px;
+  text-align: center;
+}
+div .prog{
+  width: 100%;
+}
+progress[value] {
+  width: 80%;
+}
+.other{
+  font-family: 'Bree Serif', serif;
+  color: white;
+  font-size: 30px;
+  margin-left: 30px;
+}
+.contact p{
+  font-family: 'Bree Serif', serif;
+  font-size: 50px;
+  color: white;
+  text-align: center;
+}
+.vertical{
+  white-space: nowrap;
+  font-size:30px ;
+  color: white;
+  font-weight: bold;
+  font-style: arial;
+}
+#reach p{
+  font-family: 'Bree Serif', serif;
+  letter-spacing:2px;
+  margin-left: 250px;
+}
+#reach h1{
+  font-family: 'Lobster', cursive;
+  letter-spacing: 5px;
+  font-size: 70px;
+  color:#BD9C2A ;
+  
+}
+#reach h2{
+  font-family: 'Bree Serif', serif;
+  letter-spacing: 2px;
+  text-align: center;
+    color:#BD9C2A ;
+}
+#reach a{
+  font-family: 'Bree Serif', serif;
+  display: inline;
+  margin-left: 350px;
+  text-decoration:none;
+  font-size: 50px;
+  color: #0015FF;
+}
+.contact #mob{
+  color: #0015FF;
+  margin-left: 450px;
+}
+.social{
+  margin-left: 25%;
+}
+.social a{
+  text-decoration: none;
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  padding: 30px;
+}
+.header{
+  width: 100%;
+  top: 0%;
+  position: fixed;
+}
+#cprt{
+  color: white;
+  font-size: 10px;
+  margin-left: 35%;
+}
+
+@media only screen and (max-width: 768px) {
+  div ul li {
+    font-size: 10px;
+    padding: 0px;
+    margin-left: 0px;
+    
+  }
+  div ul p {
+    color: white;
+    padding: 5px;
+    font-weight: bold;
+    font-family: arial;
+    display: inline-block;
+    margin-left: 0px;
+    font-size: 15px;
+  }
+  div ul .logo {
+    margin-left:0px;
+    margin-right: 10px;
+    padding: 0px;
+    width: 20px;
+  }
+  div ul {
+    width: 100%;
+    margin-top: 0px;
+    white-space: nowrap;
+    top: 0%;
+    background: #BD9C2A;
+    font-size: 5px;
+  }
+  div ul li a {
+    color: white;
+    text-decoration: none;
+    margin-right: 0px;
+    margin-left: 40px;
+  }
+  .quote{
+    font-family: 'Grandstander', cursive;
+  line-height: 30px;
+  color:#BD9C2A;
+  font-size: 30px;
+  font-weight: bold;
+}
+.quote #q{
+  text-align: right;
+  font-size: 15px;
+}
+.main img{
+ display:inline-block;
+  width: 40%;
+  padding: 10px;
+}
+.main p{
+  max-width: 45%;
+  font-weight: bold;
+  font-family: serif;
+  color: white;
+  display: inline-block;
+  font-size: 20px;
+  width: 45%;
+  padding: 10px;
+}
+.main span{
+  text-decoration:underline;
+}
+#break {
+  text-decoration: underline;
+  color: #BD9C2A;
+  font-size: 30px;
+  text-align: center;
+}
+.graph{
+  font-family: 'Bree Serif', serif;
+  word-spacing: 160px;
+  display: block;
+  color: white;
+  font-size: 30px;  
+  padding: 10px;
+
+}
+#gone{
+  font-size:15px;
+  
+}
+#skill{
+  letter-spacing: 5px;
+font-family: 'Lobster', cursive;
+  text-align: center;
+  font-size: 40px;
+  color:#9D1924;
+}
+.grapho {
+  font-family: 'Bree Serif', serif;
+  word-spacing: 200px;
+  display: block;
+  color: white;
+  font-size: 30px;
+  padding: 10px;
+}
+.grapht {
+  font-family: 'Bree Serif', serif;
+  word-spacing: 200px;
+  display: block;
+  color: white;
+  font-size: 30px;
+    padding: 10px;
+  
+}
+.graphf {
+  font-family: 'Bree Serif', serif;
+  word-spacing: 130px;
+  display: block;
+  color: white;
+  font-size: 30px;
+    padding: 10px;
+}
+.graphs {
+  font-family: 'Bree Serif', serif;
+  word-spacing: 150px;
+  display: block;
+  color: white;
+  font-size: 30px;
+    padding: 10px;
+}
+.other {
+  font-family: 'Bree Serif', serif;
+  color: white;
+  font-size:20px;
+  margin-left: 10px;
+}
+.contact p{
+  font-family: 'Bree Serif', serif;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
+.vertical{
+  white-space: nowrap;
+  font-size:20px ;
+  color: white;
+  font-weight: bold;
+  font-style: arial;
+}
+#reach p{
+  font-family: 'Bree Serif', serif;
+  letter-spacing: 2px;
+  margin-left: 100px;
+}
+#reach h1{
+  font-family: 'Lobster', cursive;
+  letter-spacing: 5px;
+  font-size: 30px;
+  color:#BD9C2A ;
+  
+}
+#reach h2{
+  font-family: 'Bree Serif', serif;
+  letter-spacing: 0px;
+  text-align: center;
+    color:#BD9C2A ;
+}
+#reach a{
+  font-family: 'Bree Serif', serif;
+  display: inline;
+  margin-left: 170px;
+  text-decoration:none;
+  font-size: 20px;
+  color: #0015FF;
+}
+.contact #mob{
+  margin-left: 190px;
+}
+.social{
+  margin-left: 25%;
+}
+.social a{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  padding: 10px;
+}
+.header{
+  width: 100%;
+  top: 0%;
+  position: fixed;
+}
+#cprt{
+  color: white;
+  font-size: 10px;
+  margin-left: 35%;
+}
+}
